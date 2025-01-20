@@ -7,3 +7,87 @@
   font-weight: 400;
   font-style: normal;
 }
+
+
+
+/* shard styles */
+.btn-primary{
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 144, 14);
+  font-weight: 600;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 8px;
+  padding: 21px 25px;
+}
+.dark-1{
+  color: rgb(19, 19, 19);
+}
+.dark-2{
+  color: rgb(66, 66, 66);
+}
+.dark-3{
+  color: rgb(114, 114, 114);
+}
+.display-flex{
+  display: flex;
+}
+.section-title{
+  color: rgb(19, 19, 19);
+  font-size: 3em;
+  font-weight: 700;
+  
+}
+.section-description{
+font-size: 16px;
+font-weight: 400;
+}
+/* header section styles */
+.header{
+  background-color: rgba(255, 144, 14, 0.1);
+}
+.navbar{
+  justify-content: space-between;
+  align-items: center;
+}
+.brand{
+
+}
+.nav-item{
+  font-size: 1.2em;
+  list-style: none;
+  margin-right: 30px;
+}
+.nav-links{
+  text-decoration: none;
+}
+.navbar, .banner{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.banner-container{
+  max-width: 862px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.banner-title{
+  font-weight: 700;
+  margin-bottom: 30px;
+  font-size: 4em ;
+}
+.banner-description{
+  font-weight: 400;
+  font-size: 1em;
+}
+.banner-img{
+  width: 100%;
+}
+
+/* responsive section */
+@media screen and (max-width: 576px) {
+   .navbar, .nav-items{
+    flex-direction: column;
+   }
+}
