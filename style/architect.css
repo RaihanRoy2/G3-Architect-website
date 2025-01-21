@@ -1,3 +1,7 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 
@@ -136,6 +140,7 @@ font-weight: 400;
 .fact-container{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  
   
 }
 .fact-title{
