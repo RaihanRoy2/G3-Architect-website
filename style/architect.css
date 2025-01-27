@@ -287,7 +287,8 @@ footer{
    }
    .footer-content{
     width: 320px;
-    text-align: center;
+    margin: 0px auto;
+    /* text-align: center; */
    }
    
 }
